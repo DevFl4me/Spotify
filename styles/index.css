@@ -14,11 +14,24 @@ main{
     background: linear-gradient(0deg, rgba(0,0,0,0.9724264705882353) 12%, rgba(87,44,66,1) 100%);
 }
 header{
-    height: 20%;
+    height: 10%;
 
 }
-#side-esquerdo{
+/* #side-esquerdo{
     height: 95%;
     background-color: rgba(0, 0, 0, 0.432);
 
+} */
+.hr-row{
+    width: 100%;
+    border: solid 1px rgb(255, 0, 0);
+    
+}
+.search{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#content-top{
+    color: white;
 }
