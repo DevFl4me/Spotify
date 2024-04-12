@@ -46,7 +46,9 @@ header{
     background: linear-gradient(0deg, rgba(0,0,0,0.8435749299719888) 20%, rgba(47,24,36,1) 100%);
 }
 .nav-link:hover{
-    color: rgb(68, 26, 62)!important;
+    color: rgba(255, 0, 217, 0.342)!important;
+   transition: 2;
+    border-bottom:solid 1px aliceblue ;
 }
 .card{
     background-color: transparent;
@@ -55,4 +57,12 @@ header{
 }
 .card-text{
     color: aliceblue;
+}
+#discover{
+    color: aliceblue;
+}
+h5:hover{
+    color: rgba(255, 0, 217, 0.342)!important;
+    cursor: pointer;
+    border-bottom:solid 1px aliceblue;
 }
