@@ -18,6 +18,9 @@ header{
     height: 10%;
 
 }
+footer{
+    height: 100px;
+}
 
 .hr-row{
     width: 100%;
@@ -47,7 +50,7 @@ header{
 }
 .nav-link:hover{
     color: rgba(255, 0, 217, 0.342)!important;
-   transition: 2;
+    font-size: 20px;
     border-bottom:solid 1px aliceblue ;
 }
 .card{
@@ -65,4 +68,18 @@ h5:hover{
     color: rgba(255, 0, 217, 0.342)!important;
     cursor: pointer;
     border-bottom:solid 1px aliceblue;
+}
+/* FOOTER */
+#text-top{
+    width: 70%;
+    height: 40%;
+}
+#play-music{
+    width: 80%;
+    height: 40%;
+    padding: 2px;
+}
+#sound-volume{
+    width: 10%;
+    height: 100%;
 }
